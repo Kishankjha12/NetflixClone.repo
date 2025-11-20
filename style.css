@@ -1,0 +1,413 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+ }
+
+ body{
+    background-color: #000;
+    color: #fff;
+ }
+
+ /* Header*/
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+ }
+
+ 
+ 
+ .logo{
+    width: 10px;
+    position: right;
+    height: 40px;
+ }
+ 
+ .header-right{
+    display: flex;
+    gap: 1rem;
+    
+ }
+
+ .lang-select{
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: 5px  circle solid #555;
+    padding: 6px 10px;
+    border: 10px circle;
+   border-radius: 4px ;
+ }
+
+ .signin-btn{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ /*Hero Section*/
+ .hero{
+    position: left top;
+    background: url('netflix-poster.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+ }
+
+ .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+ }
+
+ .hero-content{
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    padding: 0 20px;
+ }
+
+ .hero h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+ }
+
+ .hero .price{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+ }
+
+ .hero .cta{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+ }
+
+ .email-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+
+ .email-form input{
+    padding: 12px;
+    width: 60%;
+    max-width: 350px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+ }
+
+ .email-form button{
+    background-color: #e509;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ .email-form button:hover{
+    background-color: #f6121d;
+ }
+
+ /*Trending Section*/
+ .trending{
+    background-color: #111;
+    padding: 2rem;
+ }
+
+ .trending h2{
+    margin-bottom: 1rem;
+ }
+
+ .cards{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+ }
+
+ .card img{
+    width: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+ }
+
+ .card img:hover{
+    transform: scale(1.05);
+ }
+
+ body{
+   background-color: #000;
+   color:#fff;
+   font-family: 'Poppins', sans-serif;
+   margin:0;
+   padding: 0;
+ }
+
+ .container{
+   padding: 20px;
+   max-width: 400px;
+   margin: auto;
+ }
+
+ h2{
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-bottom: 20px;
+ }
+
+ .card{
+   background: linear-gradient(145deg, #1b1b3a,#0a0a1a);
+   border-radius: 15px;
+   padding: 20px;
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: centre;
+   transition: transform 0.3s;
+ }
+
+ .card:hover{
+   transform: translateY(-5px);
+ }
+
+ .card h3{
+font-size: 1.1em;
+margin: 0 0 8px 0;
+color: #e509;
+ }
+
+ .card p{
+   font-size: 0.9em;
+   color: #bbb;
+   margin: 0;
+ }
+
+ .icon{
+   font-size: 2em;
+   color: #b0060f;
+ }
+ button{
+   width: 100%;
+   background-color: #e50914;
+   color: #fff;
+   border: none;
+   border-radius: 10px;
+   padding: 15px;
+   font-size: 1em;
+   font-weight: 600;
+   cursor: pointer;
+   margin-top: 10px;
+   transition: background-color 0.3s;
+ }
+
+ button:hover{
+   background-color: #b0060f;
+ }
+
+ body{
+   background-color: #000;
+   color: #fff;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+
+ .container{
+   width: 90%;
+   
+   
+ }
+
+ h1{
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom:20px
+ }
+
+ .faq-item{
+   background-color: #2d2d2d;
+   margin-bottom: 10px;
+   padding: 20px;
+   cursor:pointer;
+   position: relative;
+   transition: background-color 0.3s ease;
+ }
+
+ .faq-item:hover{
+   background-color: #3d3d3d;
+ }
+
+ .faq-question{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+
+ }
+
+ .faq-question span{
+   font-size: 28px;
+   font-weight: bold;
+   transition: transform 0.3s ease;;
+ }
+
+ .faq-answer{
+   display: none;
+   padding-top: 15px;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #ddd;
+   padding-bottom: 15px;
+ }
+
+ .faq-item.active .faq-answer{
+   display: block;
+ }
+
+ .faq-item.active .faq-question span{
+   transform: rotate(45deg);
+ }
+
+ .email-section{
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 10px;
+ }
+
+ .email-section-p{
+   font-size: 100px;
+   margin-bottom: 20px;
+   margin-top: 15px;
+   padding-bottom: 15px;
+   display:start;
+   justify-content: flex-start;
+ }
+
+ .email-section input{
+   width: 350px;
+   max-width: 400px;
+   padding: 15px;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+ }
+
+ @media(max-width:600px){
+   faq-question{
+      font-size: 16px;
+   }
+   .faq-question span{
+      font-size: 24px;
+   }
+ }
+
+ .footer{
+   padding: 40px 20px;
+   max-width: 8000px;
+   margin: 0 auto;
+   text-align: left;
+ }
+
+ .footer h3{
+   color: #fff;
+   font-size: 18px;
+   margin-bottom: 10px;
+ }
+
+ .footer a {
+   color: #999;
+   text-decoration: none;
+   display:block;
+   margin:8px 0;
+   font-size: 15px;
+   transition: color 0.3s;
+ }
+
+ .footer a:hover{
+   color: #fff;
+ }
+
+  .footer .contact {
+   margin-top:15px;
+   font-size: 16px;
+  }
+
+  .footer .contact a{
+   color: #999;
+   text-decoration: underline;
+  }
+
+  #scrollTopBtn{
+   position: relative;
+   bottom: 20px;
+   right: 20px;
+   background: #e50914;
+   color: white;
+   border:none;
+   padding: 10px 151px;
+   border-radius: 50%;
+   font-size:18px;
+   cursor:pointer;
+   display: none;;
+   transition: background 0.3s;
+  }
+
+  #ScrollTopBtn:hover{
+   background: #b0060e;
+  }
+
+  .container{
+    text-align: left;
+    max-width: 400px;
+    justify-content: left;
+  }
+
+  h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  p{
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #ccc;
+    text-align: start;
+    justify-self: start;
+    
+  }
+
+  a{
+    color: #3b82f6;
+    text-decoration: left;
+    text-align: start;
+    
+
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
